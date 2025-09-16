@@ -8,9 +8,9 @@
 		<version>3.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>KafkaLog4j2 </artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.github.Rhanan1233</groupId>
+	<artifactId>log4j2-kafka-appender</artifactId>
+	<version>1.0.0</version>
 	<name>KafkaLog4j2 </name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -29,6 +29,15 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Rhanan1233/log4j2-kafka-appender</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <!-- Log4j2 -->
         <dependency>
